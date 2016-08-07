@@ -56,7 +56,7 @@ a{
 	overflow: hidden; 
 	margin-right: 136px;
 	margin-bottom: 50px;
-	margin-top: 20px;
+	margin-top: 30px;
 }
 
 .title_new_prod{
@@ -397,7 +397,7 @@ box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.75);
 
 .copyright-text {
 	background: #CCC;
-	font-size: 18px;
+	font-size: 22px;
 }
 
 footer{
@@ -500,10 +500,17 @@ input[type=button]:hover{
 
 /*one of the directory*/
 
+.photos{
+	width: 500px;
+	display: inline-block;
+}
+
 .big_photo {
 	width: 480px;
 	height: 480px;
 	background: #EAEAEA;
+	display: inline-block;
+	margin-right: 30px;
 }
 .big_photo img{
 	width: 480px;
@@ -523,4 +530,55 @@ input[type=button]:hover{
 	width: 150px;
 	height: 150px;
 	cursor: pointer;
+}
+
+.description{
+	width: 350px;
+	background: #EAEAEA;
+	font-size: 16px;
+	font-family: Roboto ,sans-serif;
+	padding: 30px 0;
+	margin-right: 50px;
+
+}
+.description p{
+	width: 340px;
+	margin: 0px 30px;
+}
+.block_photos_little{
+	display: inline-block;
+}
+
+.tittle{
+
+	font-size: 30px;
+	font-style: italic;
+	font-family: Roboto ,sans-serif;
+	font-weight: 600;
+
+}
+
+.block_description{
+	display: inline-block;
+	float: right;
+}
+
+.specification{
+	width: 350px;
+	background: #EAEAEA;
+	font-size: 16px;
+	font-family: Roboto ,sans-serif;
+	padding: 30px 0;
+	margin-right: 50px;
+}
+
+.specification table{
+	width: 300px;
+	margin: 0px 25px;
+	table-layout: fixed;
+}
+
+.specification table tr{
+	background: white;
+	margin-bottom: 5px;
 }
